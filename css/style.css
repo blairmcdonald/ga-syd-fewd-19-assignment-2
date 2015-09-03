@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr Landing Page
+Client: Relaxr
+Author: Blair McDonald
+Developer Blair McDonald @GA in NYC
 */
 
 
@@ -25,12 +25,10 @@ Developer @GA in NYC
 /* Better font rendering */
 
 * {
-    -moz-box-sizing: border-box;
+    -moz-osx-font-smoothing: grayscale;
     /* Firexfox */
     -webkit-font-smoothing: antialiased;
     /* Safari/Chrome/iOS/Android */
-    box-sizing: border-box;
-    /* IE */
 }
 
 /* Clear fix hack */
