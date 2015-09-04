@@ -46,13 +46,13 @@ Developer Blair McDonald @GA in NYC
     clear: both;
 }
 
-.alignright {
+.align-right {
     float: right;
     padding: 0 0 10px 10px;
     /* note the padding around a right floated image */
 }
 
-.alignleft {
+.align-left {
     float: left;
     padding: 0 10px 10px 0;
     /* note the padding around a left floated image */
@@ -73,7 +73,8 @@ body, a {
 
 q {
     font-size: 26px;
-    font-weight: 300italic;
+    font-weight: 300;
+    font-style: italic;
 }
 
 /******************************************
@@ -87,7 +88,7 @@ q {
     width: 100%;
     height: 700px;
     margin: auto;
-    background: url(../images/header_bg.jpg) no-repeat center top rgb(134, 141, 157);
+    background: url(../images/header_bg.jpg) no-repeat center top #868d9d;
     background-size: cover;
 }
 
@@ -100,11 +101,11 @@ q {
     width: 100%;
     height: 400px;
     margin: auto;
-    background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134, 141, 157);
+    background: url(../images/testimonial_bg.jpg) no-repeat center top #868d9d;
     background-size: cover;
 }
 
-.fullstrip {
+.full-strip {
     background: #f9e42e;
 }
 
